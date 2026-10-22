@@ -3,7 +3,7 @@ import faiss, pandas as pd, torch
 from sentence_transformers import SentenceTransformer
 
 LLM_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
-LLM_DTYPE = torch.float32
+LLM_DTYPE = torch.float16
 ABSTRACT_CHARS = 600
 MAX_NEW_TOKENS = 300
 
